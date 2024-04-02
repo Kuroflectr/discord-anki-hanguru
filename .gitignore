@@ -1,0 +1,7 @@
+*.csv
+.venv
+**/*.db 
+**/__pycache__
+.vscode
+.DS_Store
+**/*_test.py
