@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "discord-anki-hanguru"
+version = "0.1.0"
+description = ""
+authors = ["kuroflectr <ike.kuroflectr@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"},{include = "hankord", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
